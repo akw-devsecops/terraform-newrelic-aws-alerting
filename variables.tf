@@ -50,37 +50,37 @@ variable "create_dlq_alert" {
 variable "sqs_approx_age_message_critical_threshold" {
   type        = number
   description = "Critical threshold for the approximated age of the oldest message in the queue"
-  default     = 500000
+  default     = null
 }
 
 variable "sqs_approx_age_message_warning_threshold" {
   type        = number
   description = "Warning threshold for the approximated age of the oldest message in the queue"
-  default     = 250000
+  default     = null
 }
 
 variable "sqs_approx_age_message_threshold_duration" {
   type        = number
   description = "The duration in seconds for the threshold to be breached before an alert is triggered"
-  default     = 300
+  default     = null
 }
 
 variable "sqs_message_dlq_critical_threshold" {
   type        = number
   description = "Critical threshold for the number of messages in the dead-letter-queue"
-  default     = 5
+  default     = null
 }
 
 variable "sqs_message_dlq_warning_threshold" {
   type        = number
   description = "Warning threshold for the number of messages in the dead-letter-queue"
-  default     = 1
+  default     = null
 }
 
 variable "sqs_message_dlq_threshold_duration" {
   type        = number
   description = "The duration in seconds for the threshold to be breached before an alert is triggered"
-  default     = 300
+  default     = null
 }
 
 
