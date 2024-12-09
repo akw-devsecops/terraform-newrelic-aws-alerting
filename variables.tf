@@ -19,6 +19,7 @@ variable "google_chat_notification_triggers" {
   default     = ["ACTIVATED", "ACKNOWLEDGED", "PRIORITY_CHANGED", "CLOSED", "OTHER_UPDATES"]
 }
 
+
 ######################
 ### AWS SQS ###
 ######################
@@ -80,8 +81,6 @@ variable "sqs_message_dlq_threshold_duration" {
   description = "The duration in seconds for the threshold to be breached before an alert is triggered"
   default     = 300
 }
-
-
 
 
 ######################

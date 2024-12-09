@@ -17,8 +17,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [newrelic_nrql_alert_condition.clusterstatus-red-dashboard](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.clusterstatus-yellow-dashboard](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.clusterstatus_red_dashboard](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.clusterstatus_yellow_dashboard](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
 | [newrelic_nrql_alert_condition.healthynodedashboard](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
 
 ## Inputs

@@ -26,7 +26,7 @@ resource "newrelic_nrql_alert_condition" "healthynodedashboard" {
 }
 
 
-resource "newrelic_nrql_alert_condition" "clusterstatus-yellow-dashboard" {
+resource "newrelic_nrql_alert_condition" "clusterstatus_yellow_dashboard" {
   count                        = var.create_opensearch_alerts ? 1 : 0
   policy_id                    = var.newrelic_alert_policy
   type                         = "static"
@@ -46,7 +46,7 @@ resource "newrelic_nrql_alert_condition" "clusterstatus-yellow-dashboard" {
   }
 }
 
-resource "newrelic_nrql_alert_condition" "clusterstatus-red-dashboard" {
+resource "newrelic_nrql_alert_condition" "clusterstatus_red_dashboard" {
   count                        = var.create_opensearch_alerts ? 1 : 0
   policy_id                    = var.newrelic_alert_policy
   type                         = "static"
