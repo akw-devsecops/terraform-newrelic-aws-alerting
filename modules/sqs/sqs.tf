@@ -1,5 +1,5 @@
 resource "newrelic_nrql_alert_condition" "approximated_age_of_messages" {
-  count     = var.create_sqs_alerts != null ? 1 : 0
+  count     = var.create_sqs_alerts ? 1 : 0
   policy_id = var.newrelic_alert_policy
 
   type = "static"
@@ -28,7 +28,7 @@ resource "newrelic_nrql_alert_condition" "approximated_age_of_messages" {
 }
 
 resource "newrelic_nrql_alert_condition" "messages_in_dlq" {
-  count = var.create_dlq_alert != null ? 1 : 0
+  count = var.create_dlq_alert ? 1 : 0
 
   policy_id = var.newrelic_alert_policy
   type      = "static"
