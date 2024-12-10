@@ -7,7 +7,7 @@ module "sqs_alerts" {
   env                   = var.env
 
   queue_arn             = var.queue_arn
-  queue_arn_dead_letter = var.queue_arn_dead_letter ? var.queue_arn_dead_letter : null
+  queue_arn_dead_letter = var.queue_arn_dead_letter != null ? var.queue_arn_dead_letter : null
 
   sqs_approx_age_message_critical_threshold = var.sqs_approx_age_message_critical_threshold != null ? var.sqs_approx_age_message_critical_threshold : null
   sqs_approx_age_message_warning_threshold  = var.sqs_approx_age_message_warning_threshold != null ? var.sqs_approx_age_message_warning_threshold : null
@@ -40,7 +40,7 @@ module "opensearch_alerts" {
   create_opensearch_alerts = var.create_opensearch_alerts
   env                      = var.env
 
-  opensearch_cluster_name                     = var.opensearch_cluster_name ? var.opensearch_cluster_name : null
+  opensearch_cluster_name                     = var.opensearch_cluster_name != null ? var.opensearch_cluster_name : null
   opensearch_healthynodes_critical_threshold  = var.opensearch_healthynodes_critical_threshold != null ? var.opensearch_healthynodes_critical_threshold : null
   opensearch_healthynodes_warning_threshold   = var.opensearch_healthynodes_warning_threshold != null ? var.opensearch_healthynodes_warning_threshold : null
   opensearch_healthynodes_threshold_duration  = var.opensearch_healthynodes_threshold_duration != null ? var.opensearch_healthynodes_threshold_duration : null
@@ -57,7 +57,7 @@ module "rds_alerts" {
   create_rds_alerts     = var.create_rds_alerts
   env                   = var.env
 
-  rds_instance_identifier = var.rds_instance_identifier ? var.rds_instance_identifier : null
+  rds_instance_identifier = var.rds_instance_identifier != null ? var.rds_instance_identifier : null
 
   rds_cpu_critical_threshold                      = var.rds_cpu_critical_threshold != null ? var.rds_cpu_critical_threshold : null
   rds_cpu_warning_threshold                       = var.rds_cpu_warning_threshold != null ? var.rds_cpu_warning_threshold : null
