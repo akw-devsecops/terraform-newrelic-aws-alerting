@@ -38,7 +38,7 @@ variable "rds_cpu_warning_threshold" {
 variable "rds_cpu_threshold_duration" {
   type        = number
   description = "The duration in seconds for the threshold to be breached before an alert is triggered"
-  default     = 75
+  default     = 60
   nullable    = false
 }
 
