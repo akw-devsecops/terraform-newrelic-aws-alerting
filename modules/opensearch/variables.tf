@@ -20,7 +20,6 @@ variable "opensearch_cluster_name" {
   type        = string
   description = "Name of the opensearch cluster"
   default     = null
-  nullable    = false
 }
 
 variable "opensearch_healthynodes_critical_threshold" {

@@ -19,7 +19,6 @@ variable "rds_instance_identifier" {
   type        = string
   description = "Name of the RDS instance"
   default     = null
-  nullable    = false
 }
 
 variable "rds_cpu_critical_threshold" {
