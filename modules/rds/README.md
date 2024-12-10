@@ -38,7 +38,7 @@ No modules.
 | <a name="input_newrelic_alert_policy"></a> [newrelic\_alert\_policy](#input\_newrelic\_alert\_policy) | New Relic alert policy | `any` | n/a | yes |
 | <a name="input_create_rds_alerts"></a> [create\_rds\_alerts](#input\_create\_rds\_alerts) | Create alerts for RDS | `bool` | `true` | no |
 | <a name="input_rds_cpu_critical_threshold"></a> [rds\_cpu\_critical\_threshold](#input\_rds\_cpu\_critical\_threshold) | Critical threshold for the CPU utilization of the RDS instance | `number` | `90` | no |
-| <a name="input_rds_cpu_threshold_duration"></a> [rds\_cpu\_threshold\_duration](#input\_rds\_cpu\_threshold\_duration) | The duration in seconds for the threshold to be breached before an alert is triggered | `number` | `75` | no |
+| <a name="input_rds_cpu_threshold_duration"></a> [rds\_cpu\_threshold\_duration](#input\_rds\_cpu\_threshold\_duration) | The duration in seconds for the threshold to be breached before an alert is triggered | `number` | `60` | no |
 | <a name="input_rds_cpu_warning_threshold"></a> [rds\_cpu\_warning\_threshold](#input\_rds\_cpu\_warning\_threshold) | Warning threshold for the CPU utilization of the RDS instance | `number` | `75` | no |
 | <a name="input_rds_database_connections_critical_threshold"></a> [rds\_database\_connections\_critical\_threshold](#input\_rds\_database\_connections\_critical\_threshold) | Critical threshold for the number of database connections | `number` | `200` | no |
 | <a name="input_rds_database_connections_threshold_duration"></a> [rds\_database\_connections\_threshold\_duration](#input\_rds\_database\_connections\_threshold\_duration) | The duration in seconds for the threshold to be breached before an alert is triggered | `number` | `300` | no |
