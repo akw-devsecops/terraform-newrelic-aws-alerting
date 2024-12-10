@@ -10,6 +10,7 @@ variable "env" {
 variable "queue_arn" {
   type        = string
   description = "Arn of the queue to be monitored"
+  default = null
 }
 
 variable "queue_arn_dead_letter" {
