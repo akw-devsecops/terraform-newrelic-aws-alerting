@@ -38,7 +38,7 @@ variable "queue_arn_dead_letter" {
 variable "create_sqs_alerts" {
   type        = bool
   description = "Create alerts for SQS"
-  default     = true
+  default     = false
 }
 
 variable "create_dlq_alert" {
