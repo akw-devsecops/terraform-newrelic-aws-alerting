@@ -1,13 +1,15 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_newrelic"></a> [newrelic](#requirement\_newrelic) | >= 3.32.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_newrelic"></a> [newrelic](#provider\_newrelic) | n/a |
+| <a name="provider_newrelic"></a> [newrelic](#provider\_newrelic) | >= 3.32.0 |
 
 ## Modules
 
@@ -17,8 +19,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [newrelic_nrql_alert_condition.ses_bounce](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.ses_complaint](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.ses_bounce](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.ses_complaint](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
 
 ## Inputs
 

@@ -1,13 +1,15 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_newrelic"></a> [newrelic](#requirement\_newrelic) | >= 3.32.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_newrelic"></a> [newrelic](#provider\_newrelic) | n/a |
+| <a name="provider_newrelic"></a> [newrelic](#provider\_newrelic) | >= 3.32.0 |
 
 ## Modules
 
@@ -17,15 +19,15 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [newrelic_nrql_alert_condition.cpu_utilization](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.database_connection](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.free_local_storage](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.free_storage_space](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.freeable_memory](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.max_used_transaction_ids](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.read_latency](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.replica_lag](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
-| [newrelic_nrql_alert_condition.write_latency](https://registry.terraform.io/providers/hashicorp/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.cpu_utilization](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.database_connection](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.free_local_storage](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.free_storage_space](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.freeable_memory](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.max_used_transaction_ids](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.read_latency](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.replica_lag](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
+| [newrelic_nrql_alert_condition.write_latency](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs/resources/nrql_alert_condition) | resource |
 
 ## Inputs
 

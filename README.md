@@ -3,6 +3,7 @@
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.2 |
 | <a name="requirement_newrelic"></a> [newrelic](#requirement\_newrelic) | >= 3.32.0 |
 
 ## Providers
@@ -40,7 +41,7 @@
 | <a name="input_create_opensearch_alerts"></a> [create\_opensearch\_alerts](#input\_create\_opensearch\_alerts) | Create alerts for OpenSearch | `bool` | `false` | no |
 | <a name="input_create_rds_alerts"></a> [create\_rds\_alerts](#input\_create\_rds\_alerts) | Create alerts for RDS | `bool` | `false` | no |
 | <a name="input_create_ses_alerts"></a> [create\_ses\_alerts](#input\_create\_ses\_alerts) | Create alerts for AWS SES | `bool` | `false` | no |
-| <a name="input_create_sqs_alerts"></a> [create\_sqs\_alerts](#input\_create\_sqs\_alerts) | Create alerts for SQS | `bool` | `true` | no |
+| <a name="input_create_sqs_alerts"></a> [create\_sqs\_alerts](#input\_create\_sqs\_alerts) | Create alerts for SQS | `bool` | `false` | no |
 | <a name="input_google_chat_notification_triggers"></a> [google\_chat\_notification\_triggers](#input\_google\_chat\_notification\_triggers) | The issue events to notify on for google chat notifications. Valid values are ACTIVATED, ACKNOWLEDGED, PRIORITY\_CHANGED, CLOSED or OTHER\_UPDATES | `list(string)` | <pre>[<br>  "ACTIVATED",<br>  "ACKNOWLEDGED",<br>  "PRIORITY_CHANGED",<br>  "CLOSED",<br>  "OTHER_UPDATES"<br>]</pre> | no |
 | <a name="input_opensearch_cluster_name"></a> [opensearch\_cluster\_name](#input\_opensearch\_cluster\_name) | Name of the opensearch cluster | `string` | `null` | no |
 | <a name="input_opensearch_clusterstatus_red_threshold"></a> [opensearch\_clusterstatus\_red\_threshold](#input\_opensearch\_clusterstatus\_red\_threshold) | Critical threshold for the number of nodes in red status | `number` | `null` | no |
