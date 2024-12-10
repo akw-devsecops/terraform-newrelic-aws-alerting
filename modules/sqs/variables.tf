@@ -11,15 +11,12 @@ variable "queue_arn" {
   type        = string
   description = "Arn of the queue to be monitored"
   default     = null
-  nullable    = false
-
 }
 
 variable "queue_arn_dead_letter" {
   type        = string
   description = "Arn of the dead-letter-queue to be monitored"
   default     = null
-  nullable    = false
 }
 
 variable "create_sqs_alerts" {
